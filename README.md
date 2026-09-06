@@ -32,10 +32,6 @@ I build end-to-end systems — backend services, Android apps, and the pipelines
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14463F?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-14463F?style=flat-square&logo=docker&logoColor=white)
 
-### 📊 Stats
-
-![Eklavya's GitHub stats](https://github-readme-stats.vercel.app/api?username=EklavyaGoyal17&show_icons=true&hide_border=true&theme=default)
-
 ### 📫 Reach me
 
 [Portfolio](https://eklavyagoyal17.github.io/) · [LinkedIn](https://www.linkedin.com/in/eklavya-goyal-9b2aa0309) · eklavyagoyal108@gmail.com
