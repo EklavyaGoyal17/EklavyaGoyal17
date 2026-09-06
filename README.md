@@ -16,7 +16,6 @@ I build end-to-end systems — backend services, Android apps, and the pipelines
 
 - **MeshSOS** — native Android emergency app using Bluetooth mesh networking, so it keeps working when cell towers don't
 - **IoT platform** — reads sensors and acts on them in real time
-- **Financial ledger** — concurrency control & idempotency tradeoffs under skewed access (Go + Postgres)
 
 *(pinned repos below have the details)*
 
