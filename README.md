@@ -74,16 +74,13 @@
 <img src="./s-telemetry.svg" width="100%" alt="05 / Telemetry" />
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=EklavyaGoyal17&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&bg_color=0D1116&title_color=FFB547&text_color=E9ECEF&icon_color=FFB547&border_color=1D252F&border_radius=14" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EklavyaGoyal17&layout=compact&langs_count=8&bg_color=0D1116&title_color=FFB547&text_color=E9ECEF&border_color=1D252F&border_radius=14" />
+  <img width="100%" alt="GitHub activity, streak and languages" src="https://raw.githubusercontent.com/EklavyaGoyal17/EklavyaGoyal17/output/telemetry.svg" />
 </p>
 <p align="center">
-  <img height="170" src="https://streak-stats.demolab.com?user=EklavyaGoyal17&background=0D1116&border=1D252F&stroke=1D252F&ring=FFB547&fire=FFB547&currStreakNum=E9ECEF&sideNums=E9ECEF&currStreakLabel=FFB547&sideLabels=8F9AA7&dates=5C6876&border_radius=14" />
-  <img height="170" src="https://leetcard.jacoblin.cool/eklavya_goyal?theme=dark&font=Geist%20Mono&border=0&radius=14&colors=0D1116,131921,E9ECEF,8F9AA7,FFB547,FFB547" />
+  <img width="100%" alt="Contribution mesh for the last year" src="https://raw.githubusercontent.com/EklavyaGoyal17/EklavyaGoyal17/output/pulse.svg" />
 </p>
-
 <p align="center">
-  <img width="100%" alt="Contribution grid eaten by a snake" src="https://raw.githubusercontent.com/EklavyaGoyal17/EklavyaGoyal17/output/snake.svg" />
+  <a href="https://leetcode.com/u/eklavya_goyal/"><img width="49%" alt="LeetCode stats" src="https://leetcard.jacoblin.cool/eklavya_goyal?theme=dark&font=Geist%20Mono&border=0&radius=14&ext=heatmap&colors=0D1116,131921,E9ECEF,8F9AA7,FFB547,FFB547" /></a>
 </p>
 
 <br/>
