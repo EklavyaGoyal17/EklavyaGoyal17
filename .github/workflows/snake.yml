@@ -1,9 +1,9 @@
-name: Generate contribution snake
+name: Profile telemetry
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # every day at 00:00 UTC
-  workflow_dispatch:       # adds the "Run workflow" button
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:         # "Run workflow" button
   push:
     branches: [main]
 
@@ -11,16 +11,25 @@ permissions:
   contents: write
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Draw the snake (amber-on-night, matches the portfolio)
+      - uses: actions/checkout@v4
+
+      - name: Draw telemetry + contribution mesh (self-hosted cards)
+        run: python3 .github/scripts/telemetry.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+          OUT_DIR: dist
+
+      - name: Draw the snake (kept as a spare, amber-on-night)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?color_snake=#FFB547&color_dots=#131921,#3a2a10,#7a5418,#c08530,#FFB547&color_dot_border=#07090C
+            dist/snake.svg?color_snake=#FFB547&color_dots=#131921,#4d3612,#86591a,#c4862a,#FFB547&color_dot_border=#0D1116
 
       - name: Publish to the output branch
         uses: crazy-max/ghaction-github-pages@v4
