@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://eklavyagoyal17.github.io/">
-    <img src="./assets/hero.svg" width="100%" alt="Eklavya Goyal — I build systems that keep working when the network doesn't." />
+    <img src="./hero.svg" width="100%" alt="Eklavya Goyal — I build systems that keep working when the network doesn't." />
   </a>
 </p>
 
@@ -14,35 +14,35 @@
 
 <br/>
 
-<img src="./assets/highlights.svg" width="100%" alt="Incoming SWE Intern at American Express (Summer 2027) · JPMorganChase Code for Good 2026 · CGPA 9.69/10 · 5★ HackerRank" />
+<img src="./highlights.svg" width="100%" alt="Incoming SWE Intern at American Express (Summer 2027) · JPMorganChase Code for Good 2026 · CGPA 9.69/10 · 5★ HackerRank" />
 
 <br/><br/>
 
-<img src="./assets/s-now.svg" width="100%" alt="01 / Now" />
-<img src="./assets/now.svg" width="100%" alt="Now: shipping AEGIS; readying the HaalChaal pilot; co-writing a concurrency-control paper; SWE intern at American Express in Summer 2027." />
+<img src="./s-now.svg" width="100%" alt="01 / Now" />
+<img src="./now.svg" width="100%" alt="Now: shipping AEGIS; readying the HaalChaal pilot; co-writing a concurrency-control paper; SWE intern at American Express in Summer 2027." />
 
 <br/><br/>
 
-<img src="./assets/s-systems.svg" width="100%" alt="02 / Flagship systems" />
+<img src="./s-systems.svg" width="100%" alt="02 / Flagship systems" />
 
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/EklavyaGoyal17/AEGIS"><img src="./assets/card-aegis.svg" width="100%" alt="AEGIS — permission system for AI agents" /></a></td>
-    <td width="50%"><a href="https://github.com/EklavyaGoyal17/LedgerCore"><img src="./assets/card-ledgercore.svg" width="100%" alt="LedgerCore — transaction-safe financial ledger" /></a></td>
+    <td width="50%"><a href="https://github.com/EklavyaGoyal17/AEGIS"><img src="./card-aegis.svg" width="100%" alt="AEGIS — permission system for AI agents" /></a></td>
+    <td width="50%"><a href="https://github.com/EklavyaGoyal17/LedgerCore"><img src="./card-ledgercore.svg" width="100%" alt="LedgerCore — transaction-safe financial ledger" /></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/EklavyaGoyal17/Forge"><img src="./assets/card-forge.svg" width="100%" alt="FORGE — a lab for watching code misbehave" /></a></td>
-    <td width="50%"><a href="https://github.com/EklavyaGoyal17/haalchaal"><img src="./assets/card-haalchaal.svg" width="100%" alt="HaalChaal — AI check-in calls for parents" /></a></td>
+    <td width="50%"><a href="https://github.com/EklavyaGoyal17/Forge"><img src="./card-forge.svg" width="100%" alt="FORGE — a lab for watching code misbehave" /></a></td>
+    <td width="50%"><a href="https://github.com/EklavyaGoyal17/haalchaal"><img src="./card-haalchaal.svg" width="100%" alt="HaalChaal — AI check-in calls for parents" /></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/EklavyaGoyal17/MeshSOS"><img src="./assets/card-meshsos.svg" width="100%" alt="MeshSOS — SOS when the towers go dark" /></a></td>
-    <td width="50%"><a href="https://github.com/EklavyaGoyal17/vapi-hustle"><img src="./assets/card-vapihustle.svg" width="100%" alt="Vapi Hustle — open-world game on real streets" /></a></td>
+    <td width="50%"><a href="https://github.com/EklavyaGoyal17/MeshSOS"><img src="./card-meshsos.svg" width="100%" alt="MeshSOS — SOS when the towers go dark" /></a></td>
+    <td width="50%"><a href="https://github.com/EklavyaGoyal17/vapi-hustle"><img src="./card-vapihustle.svg" width="100%" alt="Vapi Hustle — open-world game on real streets" /></a></td>
   </tr>
 </table>
 
 <br/>
 
-<img src="./assets/s-more.svg" width="100%" alt="03 / More builds" />
+<img src="./s-more.svg" width="100%" alt="03 / More builds" />
 
 <details>
 <summary><b>&nbsp;Open the rest of the lab →</b></summary>
@@ -62,7 +62,7 @@
 
 <br/>
 
-<img src="./assets/s-tools.svg" width="100%" alt="04 / Toolbox" />
+<img src="./s-tools.svg" width="100%" alt="04 / Toolbox" />
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,go,ts,py,cpp,js,spring,nodejs,nextjs,react&theme=dark&perline=10" /><br/>
@@ -71,7 +71,7 @@
 
 <br/>
 
-<img src="./assets/s-telemetry.svg" width="100%" alt="05 / Telemetry" />
+<img src="./s-telemetry.svg" width="100%" alt="05 / Telemetry" />
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=EklavyaGoyal17&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&bg_color=0D1116&title_color=FFB547&text_color=E9ECEF&icon_color=FFB547&border_color=1D252F&border_radius=14" />
@@ -88,11 +88,11 @@
 
 <br/>
 
-<img src="./assets/s-principles.svg" width="100%" alt="06 / Principles" />
-<img src="./assets/principles.svg" width="100%" alt="Correctness first. Make failure boring. Authority lives outside the model. Show the evidence." />
+<img src="./s-principles.svg" width="100%" alt="06 / Principles" />
+<img src="./principles.svg" width="100%" alt="Correctness first. Make failure boring. Authority lives outside the model. Show the evidence." />
 
 <br/><br/>
 
 <p align="center">
-  <a href="mailto:eklavyagoyal108@gmail.com"><img src="./assets/footer.svg" width="100%" alt="Ping me — the mesh is listening. eklavyagoyal108@gmail.com" /></a>
+  <a href="mailto:eklavyagoyal108@gmail.com"><img src="./footer.svg" width="100%" alt="Ping me — the mesh is listening. eklavyagoyal108@gmail.com" /></a>
 </p>
