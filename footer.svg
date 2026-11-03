@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="220" viewBox="0 0 1280 220" role="img" aria-label="Ping me — eklavyagoyal108@gmail.com">
+<style>.ring{fill:none;stroke:#FFB547;transform-origin:640px 92px;animation:pulse 3s ease-out infinite;opacity:0}.r2{animation-delay:1s}.r3{animation-delay:2s}
+@keyframes pulse{0%{transform:scale(.1);opacity:.8}100%{transform:scale(1);opacity:0}}</style>
+<defs><pattern id="d" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1D252F"/></pattern></defs>
+<rect width="1280" height="220" rx="18" fill="#07090C"/><rect width="1280" height="220" rx="18" fill="url(#d)"/>
+<circle class="ring" cx="640" cy="92" r="90"/><circle class="ring r2" cx="640" cy="92" r="90"/><circle class="ring r3" cx="640" cy="92" r="90"/>
+<circle cx="640" cy="92" r="22" fill="none" stroke="#FFB547" stroke-opacity=".3" stroke-width="2"/><circle cx="640" cy="92" r="13" fill="none" stroke="#FFB547" stroke-opacity=".6" stroke-width="2"/><circle cx="640" cy="92" r="5.5" fill="#FFB547"/>
+<text x="640" y="160" text-anchor="middle" font-family="'Bricolage Grotesque','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="700" fill="#E9ECEF">Ping me — the mesh is listening.</text>
+<text x="640" y="190" text-anchor="middle" font-family="'Geist Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="1" fill="#8F9AA7">eklavyagoyal108@gmail.com</text>
+</svg>

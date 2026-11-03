@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="72" viewBox="0 0 1280 72" role="img" aria-label="NOW">
+<text x="4" y="44" font-family="'Geist Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="15" letter-spacing="2" fill="#FFB547">01</text>
+<text x="44" y="44" font-family="'Geist Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="15" letter-spacing="3" fill="#E9ECEF">/ NOW</text>
+<text x="1276" y="44" text-anchor="end" font-family="'Geist Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="1.5" fill="#5C6876">$ uptime</text>
+<line x1="4" y1="62" x2="1276" y2="62" stroke="#1D252F"/>
+<line x1="4" y1="62" x2="120" y2="62" stroke="#FFB547" stroke-width="2"/>
+</svg>

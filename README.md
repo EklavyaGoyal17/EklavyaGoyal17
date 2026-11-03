@@ -1,162 +1,98 @@
-<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:0e7490,100:7c3aed&height=220&section=header&text=Eklavya%20Goyal&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=I%20build%20systems%20that%20stay%20correct%20when%20things%20go%20wrong&descSize=18&descAlignY=58&animation=fadeIn" width="100%" />
-</p>
-
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Incoming+SWE+Intern+%40+American+Express+(Summer+2027);Ledgers+that+never+lose+a+rupee+under+races;Permission+systems+for+autonomous+AI+agents;Bluetooth+mesh+SOS+for+when+the+towers+go+dark;B.Tech+CSE+%40+VIT+Vellore+%C2%B7+CGPA+9.69" alt="Typing SVG" />
+  <a href="https://eklavyagoyal17.github.io/">
+    <img src="./assets/hero.svg" width="100%" alt="Eklavya Goyal — I build systems that keep working when the network doesn't." />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://eklavyagoyal17.github.io/"><img src="https://img.shields.io/badge/Portfolio-0e7490?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/eklavya-goyal-9b2aa0309"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://leetcode.com/u/eklavya_goyal/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
-  <a href="mailto:eklavyagoyal108@gmail.com"><img src="https://img.shields.io/badge/Email-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=EklavyaGoyal17&style=for-the-badge&color=0e7490&label=PROFILE+VIEWS" />
+  <a href="https://eklavyagoyal17.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-eklavyagoyal17.github.io-FFB547?style=for-the-badge&labelColor=0D1116&logo=googlechrome&logoColor=FFB547" /></a>
+  <a href="https://eklavyagoyal17.github.io/Eklavya_Goyal_Resume.pdf"><img src="https://img.shields.io/badge/R%C3%89SUM%C3%89-PDF-FFB547?style=for-the-badge&labelColor=0D1116&logo=readdotcv&logoColor=FFB547" /></a>
+  <a href="https://www.linkedin.com/in/eklavya-goyal-9b2aa0309"><img src="https://img.shields.io/badge/LINKEDIN-connect-FFB547?style=for-the-badge&labelColor=0D1116&logo=linkedin&logoColor=FFB547" /></a>
+  <a href="https://leetcode.com/u/eklavya_goyal/"><img src="https://img.shields.io/badge/LEETCODE-eklavya__goyal-FFB547?style=for-the-badge&labelColor=0D1116&logo=leetcode&logoColor=FFB547" /></a>
+  <a href="mailto:eklavyagoyal108@gmail.com"><img src="https://img.shields.io/badge/EMAIL-say%20hi-FFB547?style=for-the-badge&labelColor=0D1116&logo=gmail&logoColor=FFB547" /></a>
 </p>
 
----
-
-### `$ whoami`
-
-```go
-type Engineer struct {
-    Name      string
-    Now       []string
-    Obsessed  []string
-    Principle string
-}
-
-var eklavya = Engineer{
-    Name: "Eklavya Goyal · B.Tech CSE @ VIT Vellore ('28)",
-    Now: []string{
-        "Incoming SWE Intern @ American Express — Summer 2027",
-        "Building AEGIS: authorization that lives outside the model",
-        "Taking HaalChaal (AI check-in calls for parents) to its first pilot",
-    },
-    Obsessed:  []string{"concurrency", "idempotency", "failure modes", "audit trails"},
-    Principle: "If a number is on the dashboard, a run you can inspect produced it.",
-}
-```
-
----
-
-### 🛰️ Flagship systems
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🛡️ [AEGIS](https://github.com/EklavyaGoyal17/AEGIS)
-**The permission system for AI agents.** An agent may *ask* to act; AEGIS decides — independently of the model. Fail-closed policy engine (`DENY > REQUIRE_APPROVAL > ALLOW`), digest-bound human approvals, a gateway that executes **exactly once**, and a hash-chained append-only audit log.
-
-`TypeScript` `Fastify` `Next.js` `PostgreSQL` `Ed25519` `OpenAPI 3.1`
-
-</td>
-<td width="50%" valign="top">
-
-#### 💸 [LedgerCore](https://github.com/EklavyaGoyal17/LedgerCore)
-**A transaction-safe double-entry ledger.** Built around the failures that actually happen: a response lost after commit, two requests racing for the same funds, a broker down after a transfer. Durable idempotent replay, transactional outbox → Kafka, independent reconciliation.
-
-`Java 21` `Spring Boot` `PostgreSQL` `Kafka` `Redis` `OpenTelemetry`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🔬 [FORGE](https://github.com/EklavyaGoyal17/Forge)
-**A lab for watching code misbehave.** Every experiment runs in its own sandboxed JVM. An interleaving explorer enumerates *every* schedule to find the race; a liveness explorer finds livelock and starvation. Coordinated-omission-corrected load testing, JFR, JMH, and honest bootstrap statistics.
-
-`Java` `JFR` `JMH` `Testcontainers` `React` `Docker`
-
-</td>
-<td width="50%" valign="top">
-
-#### 📞 [HaalChaal](https://github.com/EklavyaGoyal17/haalchaal)
-**An AI that calls your parents every day.** In their own language, on an ordinary phone — checks wellbeing and medicines, remembers earlier calls, and WhatsApps the family a summary, with instant alerts when something sounds wrong. Pre-pilot with Indian families.
-
-`Go` `PostgreSQL` `Voice AI` `Claude` `WhatsApp Cloud API`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🚨 [MeshSOS](https://github.com/EklavyaGoyal17/MeshSOS)
-**SOS when the towers go dark.** A BLE mesh that relays compact distress payloads phone-to-phone, multi-hop, with no SIM or internet — plus offline maps, a "Good Samaritan" radar, and a UI in 7 Indian languages.
-
-`Java` `Android` `Bluetooth LE` `OSMDroid` `Firebase`
-
-</td>
-<td width="50%" valign="top">
-
-#### 🛺 [Vapi Hustle](https://github.com/EklavyaGoyal17/Game)
-**An open-world game on ~200 km² of real streets.** Vapi & Daman rebuilt in the browser: 9,241 streets, 94,700 buildings, bullet trains on the viaduct. New data pipeline, map, missions and characters on the Madras Hustle engine. Plays with a PS controller.
-
-`JavaScript` `Three.js` `OpenStreetMap / Overture data`
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>📂 More builds (click to expand)</b></summary>
 <br/>
 
-| Project | What it is | Stack |
-|---|---|---|
-| [ATLAS](https://github.com/EklavyaGoyal17/ATLAS) | Local engineering lab: synthetic payment workflows, incident recipes with traces, Java code intelligence, cited evidence assistant | Java · Spring · React · Postgres |
-| [LifeLine](https://github.com/EklavyaGoyal17/DBMS-Project) | Blood bank system — donor eligibility → TTI screening → FEFO allocation → vein-to-vein audit trail | Oracle 21c · PL/SQL · Node.js |
-| [SmartCity IAQ Node](https://github.com/EklavyaGoyal17/SmartCity-IAQ-Node) | IoT air-quality proxy via occupancy sensing, closed-loop ventilation relay | Arduino · Node.js · React |
-| [Aequitas](https://github.com/EklavyaGoyal17/aequitas) | Research ledger benchmarking OCC / 2PL / SSI / adaptive CC under skewed load (conference paper) | Go · TLA+ · Python |
-| [Lab-PC Fit Checker](https://github.com/EklavyaGoyal17/Cisco-Lab-PC-Software-Fit-Checker) | Matches software profiles to lab machines by OS, RAM and tool versions | Java |
+<img src="./assets/highlights.svg" width="100%" alt="Incoming SWE Intern at American Express (Summer 2027) · JPMorganChase Code for Good 2026 · CGPA 9.69/10 · 5★ HackerRank" />
+
+<br/><br/>
+
+<img src="./assets/s-now.svg" width="100%" alt="01 / Now" />
+<img src="./assets/now.svg" width="100%" alt="Now: shipping AEGIS; readying the HaalChaal pilot; co-writing a concurrency-control paper; SWE intern at American Express in Summer 2027." />
+
+<br/><br/>
+
+<img src="./assets/s-systems.svg" width="100%" alt="02 / Flagship systems" />
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/EklavyaGoyal17/AEGIS"><img src="./assets/card-aegis.svg" width="100%" alt="AEGIS — permission system for AI agents" /></a></td>
+    <td width="50%"><a href="https://github.com/EklavyaGoyal17/LedgerCore"><img src="./assets/card-ledgercore.svg" width="100%" alt="LedgerCore — transaction-safe financial ledger" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/EklavyaGoyal17/Forge"><img src="./assets/card-forge.svg" width="100%" alt="FORGE — a lab for watching code misbehave" /></a></td>
+    <td width="50%"><a href="https://github.com/EklavyaGoyal17/haalchaal"><img src="./assets/card-haalchaal.svg" width="100%" alt="HaalChaal — AI check-in calls for parents" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/EklavyaGoyal17/MeshSOS"><img src="./assets/card-meshsos.svg" width="100%" alt="MeshSOS — SOS when the towers go dark" /></a></td>
+    <td width="50%"><a href="https://github.com/EklavyaGoyal17/vapi-hustle"><img src="./assets/card-vapihustle.svg" width="100%" alt="Vapi Hustle — open-world game on real streets" /></a></td>
+  </tr>
+</table>
+
+<br/>
+
+<img src="./assets/s-more.svg" width="100%" alt="03 / More builds" />
+
+<details>
+<summary><b>&nbsp;Open the rest of the lab →</b></summary>
+<br/>
+
+| | Project | What it does | Stack |
+|---|---|---|---|
+| 🧭 | [**ATLAS**](https://github.com/EklavyaGoyal17/ATLAS) | Local engineering lab: synthetic payment flows, traced incident recipes, Java code intelligence, a cited evidence assistant | Java 21 · Spring · React · Postgres |
+| 🩸 | [**LifeLine**](https://github.com/EklavyaGoyal17/DBMS-Project) | Blood bank system: donor eligibility → TTI screening → FEFO allocation → vein-to-vein audit trail | Oracle 21c · PL/SQL · Node.js |
+| ⚖️ | [**Aequitas**](https://github.com/EklavyaGoyal17/aequitas) | Ledger benchmark comparing OCC, pessimistic, SSI and adaptive concurrency control under skewed load (paper) | Go · TLA+ · Python |
+| 🌫️ | [**SmartCity IAQ Node**](https://github.com/EklavyaGoyal17/SmartCity-IAQ-Node) | Air quality from occupancy, with closed-loop ventilation (team lead, backend) | Arduino · Node.js · React |
+| 🚀 | [**DevOps Pipeline**](https://github.com/EklavyaGoyal17/24BCE0743-DevOps-Project) | Commit → Maven → Docker → Kubernetes via Jenkins, monitored with Nagios | Spring Boot · Jenkins · K8s |
+| 🖥️ | [**Lab-PC Fit Checker**](https://github.com/EklavyaGoyal17/Cisco-Lab-PC-Software-Fit-Checker) | Matches a project's software needs to lab PCs by OS, RAM and tool versions | Java · Swing |
+| 🍱 | [**Campus Food Pre-Order**](https://github.com/EklavyaGoyal17/Microsoft-GitHub) | Pre-order and pickup with student riders, ratings and a loyalty discount | Python · Streamlit · SQLite |
 
 </details>
 
----
+<br/>
 
-### 🧰 Toolbox
+<img src="./assets/s-tools.svg" width="100%" alt="04 / Toolbox" />
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,go,ts,py,cpp,js&perline=6" /><br/>
-  <img src="https://skillicons.dev/icons?i=spring,nodejs,nextjs,react,tailwind,threejs,androidstudio&perline=7" /><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,redis,kafka,firebase,docker,githubactions,linux,git&perline=8" />
+  <img src="https://skillicons.dev/icons?i=java,go,ts,py,cpp,js,spring,nodejs,nextjs,react&theme=dark&perline=10" /><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,redis,kafka,firebase,docker,kubernetes,jenkins,githubactions,linux,threejs&theme=dark&perline=10" />
 </p>
 
----
+<br/>
 
-### 📊 Telemetry
+<img src="./assets/s-telemetry.svg" width="100%" alt="05 / Telemetry" />
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=EklavyaGoyal17&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EklavyaGoyal17&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=EklavyaGoyal17&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&bg_color=0D1116&title_color=FFB547&text_color=E9ECEF&icon_color=FFB547&border_color=1D252F&border_radius=14" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EklavyaGoyal17&layout=compact&langs_count=8&bg_color=0D1116&title_color=FFB547&text_color=E9ECEF&border_color=1D252F&border_radius=14" />
 </p>
 <p align="center">
-  <img height="165" src="https://streak-stats.demolab.com?user=EklavyaGoyal17&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://leetcard.jacoblin.cool/eklavya_goyal?theme=dark&font=JetBrains%20Mono&ext=heatmap" />
+  <img height="170" src="https://streak-stats.demolab.com?user=EklavyaGoyal17&background=0D1116&border=1D252F&stroke=1D252F&ring=FFB547&fire=FFB547&currStreakNum=E9ECEF&sideNums=E9ECEF&currStreakLabel=FFB547&sideLabels=8F9AA7&dates=5C6876&border_radius=14" />
+  <img height="170" src="https://leetcard.jacoblin.cool/eklavya_goyal?theme=dark&font=Geist%20Mono&border=0&radius=14&colors=0D1116,131921,E9ECEF,8F9AA7,FFB547,FFB547" />
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EklavyaGoyal17/EklavyaGoyal17/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/EklavyaGoyal17/EklavyaGoyal17/output/github-contribution-grid-snake.svg" />
-  </picture>
+  <img width="100%" alt="Contribution grid eaten by a snake" src="https://raw.githubusercontent.com/EklavyaGoyal17/EklavyaGoyal17/output/snake.svg" />
 </p>
 
----
+<br/>
 
-### 🧠 How I think about software
+<img src="./assets/s-principles.svg" width="100%" alt="06 / Principles" />
+<img src="./assets/principles.svg" width="100%" alt="Correctness first. Make failure boring. Authority lives outside the model. Show the evidence." />
 
-```text
-1. Correctness first. A fast ledger that loses money is a fast bug.
-2. Make failure boring. Retries, replays, crashes — design for them on day one.
-3. Authority lives outside the model. Never trust the thing you're guarding.
-4. Show the evidence. Tests, traces and audit logs over adjectives.
-```
+<br/><br/>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,55:0e7490,100:0d1117&height=110&section=footer" width="100%" />
+  <a href="mailto:eklavyagoyal108@gmail.com"><img src="./assets/footer.svg" width="100%" alt="Ping me — the mesh is listening. eklavyagoyal108@gmail.com" /></a>
 </p>
